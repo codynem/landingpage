@@ -89,7 +89,7 @@ function myFunction(e){
 document.addEventListener('scroll',activeSection);
 
 // Scroll to anchor ID using scrollTO event
-const scroll_to = () =>{
+/*const scroll_to = () =>{
     const links = document.querySelectorAll('.navbar__menu a');
     links.forEach(link =>{
         link.addEventListener('click',() =>{
@@ -99,7 +99,7 @@ const scroll_to = () =>{
         });
     });
 };
-scroll_to();
+scroll_to();*/
 
 //Get the button:
 mybutton = document.getElementById("myBtn");
